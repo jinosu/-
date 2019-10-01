@@ -21,7 +21,7 @@ public class Edge_ {
     int r_center;
     
     Edge_(Vertex a, Vertex b) {
-        this.vertexA = a;
+        this.vertexA = a;           
         this.vertexB = b;
          vertexA.dg++;
          vertexB.dg++;
@@ -29,8 +29,7 @@ public class Edge_ {
         this.r_center = 50;
        
         this.weight = "1";
-        i++;
-        name = "C"+String.valueOf(i) ;
+     
         this.isSelect = false;
         if (a == null) {
            name=null;

@@ -16,20 +16,17 @@ public class Vertex {
     boolean isSelect;
     int dg;
     int id;
-    static int idGen = 0;
     
     Vertex(int x, int y) {
         
-        this.id = idGen;
-        idGen++;
+    
+    
         this.r = 36;
         this.shift = 30;
         this.x = x;
-        this.y = y;
-        this.name+= ( char) (idGen+64);//
-        if (name.charAt(0)>=90) {
-           idGen = 0;
-        }
+        this.y = y;    
+      
+      
         this.isSelect = false;
     }
 
